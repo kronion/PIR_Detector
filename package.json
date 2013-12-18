@@ -1,0 +1,20 @@
+{
+  "name" : "PIR_Detector",
+  "version" : "0.0.1",
+  "description" : "Detect motion using networked PIR sensors, and receive notifications on a phone or Pebble watch",
+  "author" : {
+    "name" : "Collin Stedman",
+    "url" : "http://collinstedman.com"
+  },
+  "private" : true,
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/kronion/PIR_Detector.git"
+  },
+  "scripts" : {
+    "start" : "node app.js"
+  },
+  "dependencies" : {
+    "express" : "3.x"
+  }
+}
