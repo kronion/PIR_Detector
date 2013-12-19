@@ -1,0 +1,9 @@
+<p></p>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+  var socket = io.connect('http://localhost:7000');
+  socket.on('response', function (response) {
+    var notification = document.getElementsByTagName('p')[0];
+    notification.innerHTML = response.data;
+  });
+</script>
